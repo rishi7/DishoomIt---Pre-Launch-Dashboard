@@ -1,0 +1,47 @@
+body { background: #efefef; color: #666;}
+.navbar { background: #efefef; border-color: #ddd;}
+	.navbar img { width: 34px; height: 34px; border-radius: 4px; margin-top: 8px; float: left;}
+	.header-left ul { margin: 15px;}
+	.navbar-default .navbar-nav>li>a:hover { background: #dfdfdf;}
+	.navbar .btn { margin-top: 8px; margin-right: 8px;}
+
+#content { background: #fff; padding-top: 15px; margin-top: 50px;}
+	.alert ol { margin: 15px; margin-left: -20px;}
+	.col-md-1 ul, .col-md-3 ul { list-style: none; margin-left: -40px; text-align: right; border-right: 1px solid #c33;}
+		.col-md-1 ul { position: relative; z-index: 100;}
+		.col-md-3 ul { margin-left: -70px; border-right: 1px solid #999;}
+		.col-md-1 ul li, .col-md-3 ul li { padding: 5px 10px 5px 0;}
+			.col-md-1 ul li.active { background: #c33;}
+			.col-md-3 ul li.active { background: #999;}
+				li.active a { color: #fff;}
+
+	h3 { margin: 0 0 15px; color: #c33;}
+	.col-md-5 ul { margin-left: -40px; list-style: none; margin-bottom: 30px;}
+		.col-md-5 ul li { border-bottom: 1px solid #999; padding: 5px 0;}
+	
+	.twitter-typeahead { width: 100%;}
+	.tt-hint { padding: 5px 11px; width: 100%; color: #999;}
+	.tt-dropdown-menu { background: #efefef; min-width: 100%; box-sizing: box-box; border-radius: 4px;}
+		.tt-suggestion { padding: 6px 12px;}
+			.tt-suggestion p { margin-bottom: 0;}
+		.tt-is-under-cursor { background: #ccc; border-radius: 4px;}
+
+.autocomplete-light-widget.yourlabs-autocomplete {
+    position: absolute;
+    top: 0px !important;
+    left: 0px !important;
+    z-index: 100;
+}
+
+#sidebar {}
+	@media (min-width: 992px) { .well { width: 213px;}}
+	@media (min-width: 1200px) { .well { width: 263px;}}
+	#specific { margin-top: 15px;}
+
+#footer { color: #ccc; margin-top: 15px; padding-top: 15px; border-top: 1px solid #efefef;}
+
+@-moz-document url-prefix() { 
+  .tt-hint {
+     padding: 6px 11px;
+  }
+}
